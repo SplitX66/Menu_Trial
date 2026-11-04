@@ -28,5 +28,27 @@ namespace System_62
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void SalirToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Form1 mnu = new Form1();
+			mnu.Show();
+			this.Close();
+		}
+		
+		void ConversiónToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			if(comboBox1.SelectedItem.ToString() == "Dolares Estadounidenses"){
+				double value = 0.054;
+				double result = value * Convert.ToDouble(textBox1.Text);
+				label4.Text="El valor indicado equivale a "+Convert.ToString(result)+" Dolares Estadounidenses";
+			}
+			
+			if(comboBox1.SelectedItem.ToString() == "Pesos Mexicanos"){
+				double value = 18.67;
+				double result = value * Convert.ToDouble(textBox1.Text);
+				label4.Text="El valor indicado equivale a "+Convert.ToString(result)+" Pesos Mexicanos";
+			}
+		}
 	}
 }

@@ -54,5 +54,10 @@ namespace System_62
 			this.Hide();
 			Dist.Show();			
 		}
+		
+		void SalirDeAplicaciónToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
 	}
 }

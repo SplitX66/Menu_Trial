@@ -28,5 +28,31 @@ namespace System_62
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void MenuStrip1ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+		{
+			
+		}
+		
+		void ConversorDeDolaresToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Form2 Conv = new Form2();
+			this.Hide();
+			Conv.Show();
+		}
+		
+		void CoordenadasToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Form4 Card = new Form4();
+			this.Hide();
+			Card.Show();	
+		}
+		
+		void DistanciaEntreDosPuntosToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Form3 Dist = new Form3();
+			this.Hide();
+			Dist.Show();			
+		}
 	}
 }

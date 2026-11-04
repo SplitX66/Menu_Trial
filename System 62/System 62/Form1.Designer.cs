@@ -53,9 +53,11 @@ namespace System_62
 									this.coordenadasToolStripMenuItem});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
+			this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
 			this.menuStrip1.Size = new System.Drawing.Size(165, 214);
 			this.menuStrip1.TabIndex = 0;
 			this.menuStrip1.Text = "menuStrip1";
+			this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuStrip1ItemClicked);
 			// 
 			// conversorDeDolaresToolStripMenuItem
 			// 
@@ -63,6 +65,7 @@ namespace System_62
 			this.conversorDeDolaresToolStripMenuItem.Name = "conversorDeDolaresToolStripMenuItem";
 			this.conversorDeDolaresToolStripMenuItem.Size = new System.Drawing.Size(152, 19);
 			this.conversorDeDolaresToolStripMenuItem.Text = "Conversor de Dolares";
+			this.conversorDeDolaresToolStripMenuItem.Click += new System.EventHandler(this.ConversorDeDolaresToolStripMenuItemClick);
 			// 
 			// distanciaEntreDosPuntosToolStripMenuItem
 			// 
@@ -70,6 +73,7 @@ namespace System_62
 			this.distanciaEntreDosPuntosToolStripMenuItem.Name = "distanciaEntreDosPuntosToolStripMenuItem";
 			this.distanciaEntreDosPuntosToolStripMenuItem.Size = new System.Drawing.Size(152, 19);
 			this.distanciaEntreDosPuntosToolStripMenuItem.Text = "Distancia entre dos Puntos";
+			this.distanciaEntreDosPuntosToolStripMenuItem.Click += new System.EventHandler(this.DistanciaEntreDosPuntosToolStripMenuItemClick);
 			// 
 			// coordenadasToolStripMenuItem
 			// 
@@ -77,6 +81,7 @@ namespace System_62
 			this.coordenadasToolStripMenuItem.Name = "coordenadasToolStripMenuItem";
 			this.coordenadasToolStripMenuItem.Size = new System.Drawing.Size(152, 19);
 			this.coordenadasToolStripMenuItem.Text = "Coordenadas";
+			this.coordenadasToolStripMenuItem.Click += new System.EventHandler(this.CoordenadasToolStripMenuItemClick);
 			// 
 			// Form1
 			// 

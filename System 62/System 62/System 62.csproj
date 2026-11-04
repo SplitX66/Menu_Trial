@@ -47,6 +47,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cordenadas.cs" />
+    <Compile Include="Cordenadas.Designer.cs">
+      <DependentUpon>Cordenadas.cs</DependentUpon>
+    </Compile>
     <Compile Include="DistanciaPuntos.cs" />
     <Compile Include="DistanciaPuntos.Designer.cs">
       <DependentUpon>DistanciaPuntos.cs</DependentUpon>
@@ -75,6 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Cordenadas.resx">
+      <DependentUpon>Cordenadas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DistanciaPuntos.resx">
       <DependentUpon>DistanciaPuntos.cs</DependentUpon>
     </EmbeddedResource>

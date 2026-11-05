@@ -47,10 +47,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cordenadas.cs" />
-    <Compile Include="Cordenadas.Designer.cs">
-      <DependentUpon>Cordenadas.cs</DependentUpon>
-    </Compile>
     <Compile Include="DistanciaPuntos.cs" />
     <Compile Include="DistanciaPuntos.Designer.cs">
       <DependentUpon>DistanciaPuntos.cs</DependentUpon>
@@ -79,9 +75,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Cordenadas.resx">
-      <DependentUpon>Cordenadas.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DistanciaPuntos.resx">
       <DependentUpon>DistanciaPuntos.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

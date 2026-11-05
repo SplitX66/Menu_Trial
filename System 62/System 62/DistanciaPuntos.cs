@@ -57,7 +57,7 @@ namespace System_62
 		
 		void BtnRegresarClick(object sender, EventArgs e)
 		{
-			MainForm x = new MainForm();
+			Form1 x = new Form1();
 			x.Show();
 			this.Close();
 		}

@@ -50,7 +50,7 @@ namespace System_62
 		
 		void DistanciaEntreDosPuntosToolStripMenuItemClick(object sender, EventArgs e)
 		{
-			Form3 Dist = new Form3();
+			DistanciaPuntos Dist = new DistanciaPuntos();
 			this.Hide();
 			Dist.Show();			
 		}
